@@ -73,17 +73,22 @@ if (code) {
         })
     })
     .then(response => response.json())
-    .then(date => {
+    .then(data => {
         const accessToken = data.access_token;
         console.log('Access Token:', accessToken);
+
+
+        //Call the getProfile function with the obtained access token
+        getProfile(accessToken);
     })
+
     .catch(error => {
         console.error('Error', error);
     })
 }
 
 
-async function getProfile(accessToken) {
+async function getProfile() {
     let accessToken = localStorage.getItem('access_token');
   
     const response = await fetch('https://api.spotify.com/v1/me', {
