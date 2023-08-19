@@ -1,0 +1,52 @@
+.SearchBar {
+    background-color:rgba(0,0,0,0.8);
+    border-radius:16px;
+    max-width: 62%;
+    padding: 1%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+
+.SearchBar input {
+    margin: 1%;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 40vw;
+    padding-left: 10px;
+    
+}
+
+.SearchBar button {
+    background-color: #DF1219;
+    color: #fff;
+    border: none; 
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 1%;
+}
+
+.Header {
+    height:80vh;
+    width: 100%;
+    border-radius: 16px 16px;
+    
+  }
+  h1 {
+      display:flex;
+      justify-content: flex-start;
+      margin:1%;
+      margin-bottom:0;
+      font-size: 2.6em;
+      font-family: Arial, sans-serif;
+  }
+  h4 {
+      display:flex;
+      justify-content: flex-start;
+      padding:3px 10px;
+      font-size: 1.4em;
+      font-family: Arial, sans-serif;
+      margin: 0;
+  }

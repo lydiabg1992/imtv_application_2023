@@ -1,0 +1,51 @@
+#App {
+  background-color:black;
+  text-align:right;
+  padding:2px;
+  height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-container {
+  background-image: url('./mtv2.jpg');
+  background-size:contain;
+  margin: 2%;
+  margin-top:1px;
+  border-radius:16px;
+  width: 80vw;
+  height: 80vh;
+  
+}
+
+h1 {
+color:#FF3C3C;
+font-size: 1.25em;
+}
+
+
+.TwoColumns {
+  margin: 2%;
+  gap: 2%;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  height: 80 vh;
+  justify-content:center;
+}
+
+.ColumnOne {
+  display: grid;
+  grid-template-columns: (2, 40%, 40%);
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 16px;
+  height: 60vh;
+}
+
+.ColumnTwo {
+  display: grid;
+  grid-template-columns: (2, 40%, 40%);
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 16px;
+  height: 60vh;
+}

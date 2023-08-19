@@ -1,0 +1,291 @@
+body {
+    background-color:black;
+}
+
+main {
+    background-color: #F1F2F2;
+    margin: 1% 20%;
+    font-size:1em;
+    border-radius: 30px;
+    max-height: auto;
+    
+}
+
+.aboutme {
+    margin: 5%;
+    padding: 1%;
+}
+
+button.highlighted {
+  border: 5px solid #008CD9;
+
+}
+
+
+.headerimg {
+    width: 100%; 
+    max-width: 100%;
+    max-height: 100px;
+    padding: 0;
+    margin:0;
+}
+
+#hamburger {
+    position: absolute;
+    z-index: 100;
+    top: 13em;
+    right: 21%;
+    background: none;
+    color: black;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    transform: scale(2);
+    
+}
+
+.closeIcon {
+    display: none;
+}
+
+.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform .1s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background:black;
+    color: white;
+    list-style:none;
+    padding-top:4rem;
+
+}
+
+.showMenu {
+    transform: translateY(0);
+}
+
+nav {
+    float: right;
+}
+
+li {
+    list-style-type:none;
+    display:none;
+}
+
+img {
+    max-width: 100%;
+    height: 120px;
+}
+
+h1 {
+    font-size: 68px;
+    margin:0;
+   
+}
+
+h2 {
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    margin:0;
+   
+}
+
+h3 {
+    font-size: 1.15em;
+  
+}
+.pagetitle {
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding: 3%;
+    margin-top:0;
+    z-index:99;
+    
+}
+
+.step1, .step2, .step3, .step4 {
+display:flex; 
+align-items: flex-start;
+padding: 5px;
+font-family: Arial, sans-serif;
+font-weight: lighter;
+font-size: 1em;
+text-transform: uppercase;
+margin: 5px;
+width: 100%;
+}
+
+.button-container img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.button-container {
+    background-color: #DF1219;
+    color: white;
+    text-transform: uppercase;
+    padding: 18px;
+    margin: 5px;
+    border-radius: 50px;
+    box-shadow: 0 3px #999;
+    z-index:99;
+    align-items:center;
+    height: 100px;
+    width:20%;
+    
+}
+
+.button-container:hover {
+background-color: #9C0C11;
+font-weight:bold;
+}
+
+
+
+footer {
+font-family: Arial, sans-serif;
+font-size: .85em;
+z-index:99;
+display:flex;
+justify-content:center;
+}
+
+span {
+    display:flex;
+    z-index: 0;
+    margin: 0;
+    width: auto;
+}
+
+
+.submit {
+    display:flex;
+    justify-content:center;
+}
+.dot1 {
+  height: 150px;
+  width: 150px;
+  background-color: #bbb;
+  border-radius: 0 50% 50% 0;
+  margin-right: 0;
+  z-index: 0;
+  transform: scaleX(-1);
+  align-self:flex-end;
+  background-color: #FFB000;
+  float: right;
+}
+
+.dot2 {
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 0 50% 50% 0;
+    margin-right: 0;
+    margin-top:20px;
+    z-index: 0;
+    transform: scaleX(-1);
+    align-self:flex-end;
+    background-color:#008CD9;
+    float: right;
+    
+  }
+
+
+  .dot3 {
+  height: 200px;
+  width: 200px;
+  background-color: #bbb;
+  border-radius: 0 50% 50% 0;
+  display: inline-block;
+  margin: 0;
+  z-index: -1;
+  background-color: #DF1219;
+  
+  }
+
+
+
+
+/*iPhone Screens, 600px and DOWN */
+@media only screen and (max-width: 600px) {
+#hamburger {
+    top: 15em;
+    right: 0;
+}
+
+.dot2, .dot1 {
+    width: 100px;
+    height: 100px;
+    display:block;
+    z-index:0;
+}
+
+main {
+    width: 100%;
+    margin:auto;
+    height: 100%;
+}
+
+button {
+    max-height: 150px;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 11px;
+
+}
+.activitytitle {
+    padding: 2px;
+    margin: 0;
+}
+button img  {
+    padding: 0px;
+    margin: 0px;
+}
+footer p{
+display:block;
+right: 50%;
+padding: 5px;
+z-index:99;
+}
+
+.submit {
+    margin: 0;
+    z-index:99;
+}
+}
+
+
+/*Portrait tablets and large phones, 600px and up */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+
+
+
+/*Landscape tablets, 768 px and up */
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+
+/*Large devices, laptops, desktops, 992px and up */
+
+@media only screen and (min-width:992px) {
+
+}
+
+
+/*XL devices, large laptops, desktops 1200px and up */
+
+
