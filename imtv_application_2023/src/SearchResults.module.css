@@ -1,20 +1,32 @@
-.SearchResults{
-    flex:1;
-    padding:5px;;
-    background-color:#DF1219;
-    border-radius:16px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    background-color:rgba(0,0,0,0.8);
-    color: white;
-    z-index: 1;
-    height: 50vh;
-    overflow:scroll;
-    
+.App-SearchResults{
+    width:50%;
+    height: 500px;
+    overflow-y:scroll;
+    padding:5px;
+    overflow-y:scroll;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
 }
 
 h2 {
     font-size: 1.5em;
-    display:flex;
-    justify-content: center;
+   
     color: white;
+    
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background:transparent;
+}
+@media only screen and (max-width: 1020px) {
+    .App-SearchResults {
+        width: 90vh;
+        margin-bottom: 2rem;
+    }
 }

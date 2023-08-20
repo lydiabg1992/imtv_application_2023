@@ -84,17 +84,20 @@ class App extends React.Component {
 render() {
 return (
   <div id="App">
-      
         <div className="App-container">
+          <div className="titles">
+          <h1>iMTV</h1>
+          <h4>Life is a Soundtrack</h4>
+          </div>
             <SearchBar onSearch={this.search} />
           <div className="TwoColumns">
-            <div className="ColumnOne">
+            <div className="App-playlist">
           <SearchResults 
           searchResults={this.state.searchResults} 
           onSearch={this.search}
           onAdd={this.addTrack} />
           </div>
-          <div className="ColumnTwo">
+          <div className="PlaylistList">
           <Playlist
             playlistName={this.state.playlistName}
             playlistTracks={this.state.playlistTracks}

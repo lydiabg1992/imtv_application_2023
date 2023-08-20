@@ -1,11 +1,29 @@
 .Track {
     display:flex;
-    justify-content:space-between;
+    flex-grow:2;
     align-items:center;
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
 
-.SingleTrack {
-    color: black;
+.Track-action {
+    cursor: pointer;
+    padding: 1em;
+    font-size: 1rem;
+    transition: color .25s;
+    border: 0px;
+    background-color: rgba(0,0,0,0.8);
 }
+
+.Track-action:hover {
+    color: rgba(265, 265, 265, .5);
+}
+
+.Track-information {
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 72px;
+}
+

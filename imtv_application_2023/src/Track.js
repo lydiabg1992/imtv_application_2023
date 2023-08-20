@@ -40,7 +40,7 @@ class Track extends React.Component {
       <div className="Track">
         <div className="Track-information">
         <h3>{this.props.track.name}</h3>
-        <p>{this.props.track.artists.name}</p>
+        <p>{this.props.track.artist}</p>
         <p>{this.props.track.album}</p>
         <p>{this.props.track.uri}</p>
       </div>

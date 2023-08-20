@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './SearchBar.module.css';
 
-export default class SearchBar extends React.Domponent {
+export default class SearchBar extends React.Component {
 constructor(props) {
   super(props);
   this.state = {

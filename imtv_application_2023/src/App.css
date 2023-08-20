@@ -6,46 +6,94 @@
   display:flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  min-height:100%;
 }
 
 .App-container {
   background-image: url('./mtv2.jpg');
   background-size:contain;
   margin: 2%;
-  margin-top:1px;
   border-radius:16px;
   width: 80vw;
-  height: 80vh;
-  
+  height: 100%;
+  min-height:100%;
+  display:flex;
 }
 
-h1 {
+.titles {
+  background-color: rgba(0,0,0,0.8);
+  margin: 1%;
+  border-radius: 16px;
+  padding:1%;
+  width: auto;
+  flex: 0 0 20vw;
+  justify-content: flex-start;
+}
+
+
+.PlaylistList {
+  background-color: rgba(0,0,0,0.8);
+  margin: 1%;
+  border-radius: 16px;
+  padding:1%;
+  width: auto;
+}
+
+.App-playlist {
+  background-color: rgba(0,0,0,0.8);
+  margin: 1%;
+  border-radius: 16px;
+  padding:1%;
+  width: auto;
+  display:flex;
+  justify-content: space-between;
+  max-height:100%;
+  overflow-y:scroll;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+
+
+.titles h1 {
 color:#FF3C3C;
-font-size: 1.25em;
+font-size: 2.5em;
+padding: 3%;
+display:flex;
+justify-content: flex-start;
+margin:1%;
+font-family: Arial, sans-serif;
 }
 
+.titles h4 {
+  color: white;
+  font-size: 1.4em;
+  padding:3%;
+  display:flex;
+  justify-content: flex-start;
+  font-family: Arial, sans-serif;
+  margin: 3%;
+}
 
 .TwoColumns {
   margin: 2%;
   gap: 2%;
-  display: grid;
-  grid-template-columns: 40% 40%;
+  display: flex;
+  flex: 1;
   height: 80 vh;
   justify-content:center;
 }
 
-.ColumnOne {
-  display: grid;
-  grid-template-columns: (2, 40%, 40%);
-  background-color: rgba(0,0,0,0.8);
-  border-radius: 16px;
-  height: 60vh;
+@media only screen and (max-width: 1020px) {
+  .App-container {
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
-.ColumnTwo {
-  display: grid;
-  grid-template-columns: (2, 40%, 40%);
-  background-color: rgba(0,0,0,0.8);
-  border-radius: 16px;
-  height: 60vh;
-}

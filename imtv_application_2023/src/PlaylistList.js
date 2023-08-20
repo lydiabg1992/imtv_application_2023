@@ -8,7 +8,7 @@ export default class PlaylistList extends React.Component {
             <div className="PlaylistList">
                 <h2>Your Playlist</h2>
                 <>
-                {this.props.playlists && this.props.playlist.map((playlist) => {
+                {this.props.playlists && this.props.playlists.map((playlist) => {
                     return (
                         <PlaylistItem
                         name={playlist.playlistName}

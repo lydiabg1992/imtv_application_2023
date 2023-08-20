@@ -1,0 +1,20 @@
+.PlaylistList {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 16px;
+    height: 250px;
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background:transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+    .PlaylistList {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+}

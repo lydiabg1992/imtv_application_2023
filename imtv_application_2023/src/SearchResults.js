@@ -6,7 +6,7 @@ import './SearchResults.module.css';
 export default class SearchResults extends React.Component {
   render() {
     return (
-    <div className="SearchResults">
+    <div className="App-SearchResults">
       <h2>Search Results</h2>
     <Tracklist 
     tracks={this.props.searchResults} 

@@ -1,17 +1,23 @@
 
 .Playlist {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    overflow-y:scroll;
+    width:37%;
+    max-height: 750px;
     flex:1;
-    padding: 10px;
+    padding: 2.27rem 1.16rem;
     background-color:#fff;
     border-radius:16px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     background-color:rgba(0,0,0,0.8);
-    color: white;
 }
 
 
 
-.SaveButton {
+.Playlist-save {
+    cursor: pointer;
     background-color:#DF1219;
     color: #fff;
     border:none;
@@ -21,6 +27,14 @@
     margin-top: 10%;
     margin-bottom: 1%;
     
+}
+
+.Playlist input {
+    width: 100%; 
+    border: 0;
+    outline:0;
+    background:transparent;
+    border-radius: 54px;
 }
 
 input {
