@@ -12,3 +12,6 @@ Users can:
 ~ Display existing user Spotify playlists.
 
 ![Screenshot 2023-09-20 at 5 14 55 PM](https://github.com/lydiabg1992/imtv_application_2023/assets/113205751/e06dffa7-1602-4056-ac2f-d7cdb95549f1)
+
+
+![Screenshot 2023-09-21 at 7 44 15 PM](https://github.com/lydiabg1992/imtv_application_2023/assets/113205751/2f5cf39d-f021-4fa2-b7f5-d7f428495d7f)
